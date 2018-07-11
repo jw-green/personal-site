@@ -1,0 +1,74 @@
+.c-showcase {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.c-showcase_headline {
+    margin-bottom: 5%;
+}
+
+.c-showcase_headline > h1 {
+    font-family: "Marzaki Text", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+
+.c-showcase_content {
+    font-weight: 100;
+    /*Margin to be replaced with width when images done*/
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c-showcase_copy {
+    width: 50%;
+}
+
+.c-showcase_image {
+    z-index: -999;
+    height: 352px;
+    width: 640px;
+    transform: translateX(-15%);
+    filter: drop-shadow(5px 20px 4px #00000010);
+    animation: slideInRight 1.5s;
+}
+
+@keyframes slideInRight {
+    from {
+      transform: translate3d(0, 0, 0);
+      visibility: visible;
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate3d(-15%, 0, 0);
+      opacity: 1;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+
+    .c-showcase_headline {
+        width: 50%;
+    }
+
+    .c-showcase_content {
+        margin-bottom: 50px; 
+        display: block;
+    }
+
+    .c-showcase_copy {
+        margin-bottom: 50px; 
+        width: 80%;
+    }
+
+    .c-showcase_image {
+        margin: auto;
+        height: 90%;
+        width: 90%;
+        transform: translateX(0);
+        animation: none;
+    }
+}

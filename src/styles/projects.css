@@ -1,0 +1,39 @@
+.c-projects {
+    height: 100vh;
+    text-align: center;
+}
+
+.c-projects_headline {
+    padding: 5%;
+}
+
+.c-projects_title, .c-projects_sub {
+    color: black;
+    font-weight: 100;
+    margin: 8px;
+}
+
+.c-projects_title {
+    font-size: 2.5em;
+}
+
+.c-projects_card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .c-projects {
+        height: auto;
+    }
+
+    .c-projects_card-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}

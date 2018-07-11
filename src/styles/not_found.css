@@ -1,0 +1,10 @@
+.c-not_found {
+    background-color: #FF9A8B;
+    background-image: linear-gradient(55deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);    
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

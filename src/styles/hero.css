@@ -1,0 +1,40 @@
+.c-hero {
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
+            
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-hero_headline {
+    animation: fadein 2s;
+}
+
+.c-hero_title {
+    padding-bottom: 10%;
+}
+
+.c-hero_title, .c-hero_sub {
+    color: white;
+    font-weight: 100;
+    margin: 8px;
+    text-align: center;
+}
+
+.c-hero_sub {
+    border-radius: 5px;
+    background-color: #0093E9;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.c-hero_title {
+    font-size: 2.5em;
+}
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
+  }
