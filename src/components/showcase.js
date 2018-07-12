@@ -14,7 +14,7 @@ class Showcase extends Component {
                     <div className="c-showcase_copy">{this.props.copy}</div>
                     <img className="c-showcase_image" src={this.props.img} alt="Showcase"/>
                 </div>
-                <GitHubButton link={this.props.link}/>
+                <GitHubButton link={this.props.link} animate="true"/>
             </div>
         )
     }

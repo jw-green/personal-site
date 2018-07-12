@@ -7,11 +7,17 @@ class About extends Component {
         return (
             <div>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae maximus lorem. Duis finibus orci sem, non ornare arcu pretium in. Quisque vitae felis eros. Sed a dolor erat. Aliquam sit amet est eu orci fermentum suscipit. Integer metus magna, dapibus sit amet rutrum nec, fringilla et sapien. Aliquam erat volutpat. Sed non pretium lectus, vitae volutpat tortor. Ut mauris neque, ullamcorper nec feugiat vitae, hendrerit quis lorem.
+                    Ever since touching C++ for the first time, I was hooked. 
+                </p>
+                <p>
+                    Well, that's not strictly true. After bombing an internship interview (hard) in my first year of university, I learned to stop worrying and love coding. Creating games in C++ gave way to web scrapers, ML models, and helper scripts in Python before long. This was then extended to the web. Frameworks like React give that modular, OO-type feel I first fell in love with in C++. I've worked in service, sales, product delivery, and training across multiple industries&mdash; right now in FinTech. Born and raised in the UK and currently living in the US.
                 </p>
 
                 <p>
-                    Cras vitae ligula nisi. Maecenas ipsum dui, vulputate id sapien non, fringilla vestibulum turpis. Nullam at euismod felis. Aenean rhoncus ex a auctor tristique. Donec mollis, odio ut iaculis fermentum, risus leo convallis eros, vel tempus metus tellus a lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur mi felis, volutpat vel lobortis in, auctor ac est. Etiam eu lorem dui. Etiam euismod erat et odio vehicula, id venenatis diam finibus. Morbi ut neque id ex egestas molestie. Pellentesque fringilla, leo in facilisis consequat, odio velit rhoncus lectus, vel dapibus ligula lorem sit amet nisl. Vestibulum tristique felis in mi faucibus, ac efficitur neque egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus vel tortor auctor, accumsan nibh a, placerat lectus. In ut sem risus.
+                    My interests are around code, machine learning, design, psychology, philosophy, and coaching. I read a lot around the areas of business, psychology, and philosophy. 
+                </p>
+                <p>
+                    At present, my key focus in coding projects is directed towards creating a platform for total human optimisation: Azad. I feel like this is the perfect way to fully utilise my broad range of experience.
                 </p>
             </div>
         )
@@ -19,7 +25,8 @@ class About extends Component {
     render() {
         return (
             <Showcase_T type="about" 
-                        title="About" 
+                        title="About Me"
+                        sub="Programmer, Designer, Trainer, and Coach"
                         img={this.props.img} 
                         copy={this.renderCopy()}
             />

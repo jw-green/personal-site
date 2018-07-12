@@ -8,7 +8,7 @@ class GitHubButton extends Component {
         if ( link ) {
             return (
                 <a target="_blank" href={this.props.link}>
-                    <div className="c-github_button">
+                    <div className={`c-github_button-` + this.props.animate}>
                         <img src={GitHub}/> 
                         <p>See this on GitHub</p>
                     </div>

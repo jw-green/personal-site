@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/contact.css';
 import Logo from '../Logo.svg';
+import GitHubButton from '../buttons/github';
 
 class Contact extends Component {
     render() {
@@ -12,8 +13,11 @@ class Contact extends Component {
                             <img src={Logo} height="100"/>
                         </div>
                         <div className="c-card__side-back">
-                            <p className="c-card_name"> Jacob Green </p>
-                            <p className="c-card_role"> Programmer </p>
+                            <div>
+                                <p className="c-card_name"> Jacob Green </p>
+                                <p className="c-card_role"> admin@jacobwgreen.com </p>
+                            </div>
+                            <GitHubButton link="https://github.com/jw-green/personal-site" animate="false"/>
                         </div>
                     </div>
                 </div>

@@ -1,25 +1,23 @@
 .c-about {
     height: 100vh;
-    max-height: 100vh;
-    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .c-about_headline {
     text-align: center;
+    margin-top: -5%;
 }
 
 .c-about_title {
-    font-size: 2.5rem;
-}
-
-.c-about_wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 2.5em;
 }
 
 .c-about_content {
     margin-left: 10%;
+    margin-top: -5%;
 }
 
 .c-about_copy {
