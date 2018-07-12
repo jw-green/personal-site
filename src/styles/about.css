@@ -35,6 +35,10 @@
         height: auto;
     }
 
+    .c-about_headline {
+        margin: 5% 0 10% 0;
+    }
+
     .c-about_content {
         margin-left: 0;
         width: 100%;
