@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/Node.css';
 import check from '../check.svg';
+import PhotoButton from '../buttons/photos';
 
-const Node = ({ from, to, arrival_time, depart_time, date, state }) => {
+const Node = ({ from, to, arrival_time, depart_time, date, state, link }) => {
 
     function CheckState(state) {
         const isComplete = state;
@@ -22,7 +23,7 @@ const Node = ({ from, to, arrival_time, depart_time, date, state }) => {
                 {CheckState(state)}
             </div>
             <div className="c-travel-node__label">
-                <h1 className="c-flight_ref-header">
+                <h1 className="c-travel-node__header">
                     {from} &#8594; {to}
                 </h1>
                 <h2 className="c-travel-node__date">
@@ -35,6 +36,9 @@ const Node = ({ from, to, arrival_time, depart_time, date, state }) => {
                     <h2 className="c-travel-node__arrival">
                         Arrive: {arrival_time}
                     </h2>
+                </div>
+                <div className="c-node_photo_button">
+                    <PhotoButton link={link}/>
                 </div>
             </div>
         </div>

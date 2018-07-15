@@ -10,6 +10,8 @@ const Timeline = ({}) => {
                 depart_time="0717" 
                 arrival_time="0820" 
                 date="07/15"
+                state="Complete"
+                link="https://www.flickr.com/gp/155646839@N03/67Ecb2"
                 />
 
             <Node from="Philadelphia, PA"
