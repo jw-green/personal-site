@@ -44,8 +44,10 @@ const Timeline = ({}) => {
             <Node from="Charlottesville, VA"
                 to="Atlanta, GA"
                 depart_time="2052" 
-                arrival_time="0813+1" 
+                arrival_time="0813+1"
                 date="07/19"
+                state="Complete"
+                link="https://flic.kr/s/aHsmpjnnyT"
                 />
 
             <Node from="Atlanta, GA"
@@ -53,6 +55,7 @@ const Timeline = ({}) => {
                 depart_time="1030" 
                 arrival_time="1243" 
                 date="07/21"
+                state="Complete"
                 />
         </div>
     )
